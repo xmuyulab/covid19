@@ -33,6 +33,8 @@
 | :question: Pending            | scRNAseq        | <a name="9_short"></a>[:arrow_right: Single-cell longitudinal analysis of SARS-CoV-2 infection in human bronchial epithelial cells](#9_long)                                                                          |
 | :question: Pending            | AIRR            | <a name="13_short"></a>[:arrow_right: Immunologic perturbations in severe COVID-19/SARS-CoV-2 infection](#13_long)                                                                                                    |
 | :question: Pending            | AIRR            | <a name="3_short"></a>[:arrow_right: Microsoft and Adaptive Biotechnologies are studying how the human immune system reacts to the coronavirus: MSNBC](#3_long)                                                       |
+| :question: Pending            | scRNAseq + AIRR | <a name="15_short"></a>[:arrow_right: Single-cell landscape of immunological responses in patients with COVID-19](#16_long)|
+| :question: Pending            | scRNAseq + AIRR + scATAC | <a name="16_short"></a>[:arrow_right: A human circulating immune cell landscape in aging and COVID-19](#15_long)|
 
 # Datasets in details
 - <a name="11_long"></a>[:arrow_left: Back to the list](#11_short)
@@ -202,6 +204,29 @@ The research findings will be shared via an open access data-set so others can l
   - **Sharing statement:** The research findings will be shared via an open access data-set so others can leverage it so develop better treatments for Covid-19. https://www.cnbc.com/2020/03/20/microsoft-adaptive-studying-coronavirus-immune-system-reaction.html
 <br/>
 
+- <a name="15_long"></a>[:arrow_left: Back to the list](#15_short)
+- [Single-cell landscape of immunological responses in patients with COVID-19](http://dx.doi.org/10.1038/s41590-020-0762-x)
+  - **Public availability of data:** :question: Pending
+  - **Data type:** scRNA + AIRR
+  - **Source type:** Publication
+  - **Publication DOI:** 10.1038/s41590-020-0762-x
+  - **Publication abstract/Press release:** In coronavirus disease 2019 (COVID-19), caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection, the relationship between disease severity and the host immune response is not fully understood. Here we performed single-cell RNA sequencing in peripheral blood samples of 5 healthy donors and 13 patients with COVID-19, including moderate, severe and convalescent cases. Through determining the transcriptional profiles of immune cells, coupled with assembled T cell receptor and B cell receptor sequences, we analyzed the functional properties of immune cells. Most cell types in patients with COVID-19 showed a strong interferon-α response and an overall acute inflammatory response. Moreover, intensive expansion of highly cytotoxic effector T cell subsets, such as CD4+ effector-GNLY (granulysin), CD8+ effector-GNLY and NKT CD160, was associated with convalescence in moderate patients. In severe patients, the immune landscape featured a deranged interferon response, profound immune exhaustion with skewed T cell receptor repertoire and broad T cell expansion. These findings illustrate the dynamic nature of immune responses during disease progression.
+  - **Dataset link:** https://bigd.big.ac.cn/gsa-human/browse/HRA000150
+  - **Sharing statement:** The raw sequence data reported in this paper have been deposited in the Genome Sequence Archive of the Beijing Institute of Genomics (BIG) Data Center, BIG, Chinese Academy of Sciences, under accession code HRA000150 and are publicly accessible at http://bigd.big.ac.cn/gsa-human. Other supporting raw data are available from the corresponding author upon reasonable request. Source data are provided with this paper.
+Code
+<br/>
+
+- <a name="16_long"></a>[:arrow_left: Back to the list](#16_short)
+- [A human circulating immune cell landscape in aging and COVID-19](http://dx.doi.org/10.1007/s13238-020-00762-2)
+  - **Public availability of data:** :question: Pending
+  - **Data type:** scRNA + AIRR + scATAC
+  - **Source type:** Publication
+  - **Publication DOI:** 10.1007/s13238-020-00762-2
+  - **Publication abstract/Press release:** Age-associated changes in immune cells have been linked to an increased risk for infection. However, a global and detailed characterization of the changes that human circulating immune cells undergo with age is lacking. Here, we combined scRNA-seq, mass cytometry and scATAC-seq to compare immune cell types in peripheral blood collected from young and old subjects and patients with COVID-19. We found that the immune cell landscape was reprogrammed with age and was characterized by T cell polarization from naive and memory cells to effector, cytotoxic, exhausted and regulatory cells, along with increased late natural killer cells, age-associated B cells, inflammatory monocytes and age-associated dendritic cells. In addition, the expression of genes, which were implicated in coronavirus susceptibility, was upregulated in a cell subtype-specific manner with age. Notably, COVID-19 promoted age-induced immune cell polarization and gene expression related to inflammation and cellular senescence. Therefore, these findings suggest that a dysregulated immune system and increased gene expression associated with SARS-CoV-2 susceptibility may at least partially account for COVID-19 vulnerability in the elderly.
+  - **Dataset link:** https://bigd.big.ac.cn/bioproject/browse/PRJCA002865
+  - **Sharing statement:** The single-cell sequencing data is deposited in the Genome Sequence Archive in BIG Data Center, Beijing Institute of Genomics (BIG, https://bigd.big.ac.cn/gsa-human/), Chinese Academy of Sciences, with Project Accession No. PRJCA002865 and GSA Accession No. HSA000203.
+Code
+<br/>
 
 
 # License
